@@ -1,12 +1,21 @@
 PODS:
   - Masonry (1.1.0)
+  - STMTestFramework (1.1.0):
+    - STMTestFramework/iphoneos (= 1.1.0)
+  - STMTestFramework/iphoneos (1.1.0)
 
 DEPENDENCIES:
   - Masonry (= 1.1.0)
+  - STMTestFramework (from `../`)
+
+EXTERNAL SOURCES:
+  STMTestFramework:
+    :path: ../
 
 SPEC CHECKSUMS:
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  STMTestFramework: 04a5b5b2a95bd13a18bdae807f59c271cd469057
 
-PODFILE CHECKSUM: 1c883a13b347b314a1e139e68dbb537278b4aa96
+PODFILE CHECKSUM: 32b44bd9b5a920ff87e72ad96196d2488d48d153
 
 COCOAPODS: 1.4.0

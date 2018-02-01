@@ -1,0 +1,6 @@
+framework module STMTestFramework {
+  umbrella header "STMTestFramework.h"
+
+  export *
+  module * { export * }
+}
