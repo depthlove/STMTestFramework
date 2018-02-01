@@ -21,8 +21,8 @@
   ],
   "subspecs": [
     {
-      "name": "iphoneos",
-      "vendored_frameworks": "Pod/Library/STMTestFramework/Release-iphoneos/STMTestFramework.framework"
+      "name": "universal",
+      "vendored_frameworks": "Pod/Library/STMTestFramework/Release-universal/STMTestFramework.framework"
     }
   ]
 }

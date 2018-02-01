@@ -176,7 +176,7 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Example/Pods-Example-frameworks.sh",
-				"${PODS_ROOT}/../../Pod/Library/STMTestFramework/Release-iphoneos/STMTestFramework.framework",
+				"${PODS_ROOT}/../../Pod/Library/STMTestFramework/Release-universal/STMTestFramework.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (

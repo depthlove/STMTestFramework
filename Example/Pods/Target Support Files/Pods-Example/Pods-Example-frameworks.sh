@@ -134,10 +134,10 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_framework "${PODS_ROOT}/../../Pod/Library/STMTestFramework/Release-iphoneos/STMTestFramework.framework"
+  install_framework "${PODS_ROOT}/../../Pod/Library/STMTestFramework/Release-universal/STMTestFramework.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_framework "${PODS_ROOT}/../../Pod/Library/STMTestFramework/Release-iphoneos/STMTestFramework.framework"
+  install_framework "${PODS_ROOT}/../../Pod/Library/STMTestFramework/Release-universal/STMTestFramework.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
   wait

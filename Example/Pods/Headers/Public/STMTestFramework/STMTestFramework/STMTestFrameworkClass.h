@@ -1,1 +1,1 @@
-../../../../../../Pod/Library/STMTestFramework/Release-iphoneos/STMTestFramework.framework/Headers/STMTestFrameworkClass.h
+../../../../../../Pod/Library/STMTestFramework/Release-universal/STMTestFramework.framework/Headers/STMTestFrameworkClass.h
