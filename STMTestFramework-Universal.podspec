@@ -1,5 +1,5 @@
 #
-#  Be sure to run `pod spec lint STMTestFramework.podspec' to ensure this is a
+#  Be sure to run `pod spec lint STMTestFramework-Universal.podspec' to ensure this is a
 #  valid spec and to remove all comments including this before submitting the spec.
 #
 #  To learn more about Podspec attributes see http://docs.cocoapods.org/specification.html
@@ -23,8 +23,9 @@ s.requires_arc = true
 
 s.frameworks = "UIKit", "Foundation"
 
-s.subspec "iphoneos" do |ss1|
-    ss1.vendored_framework = "Pod/Library/STMTestFramework.framework"
+s.subspec "universal" do |ss1|
+    ss1.vendored_framework = "Pod/Library-Universal/STMTestFramework.framework"
 end
 
 end
+

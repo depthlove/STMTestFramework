@@ -14,6 +14,7 @@
 		0A4284692022247C005FEA6D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A4284672022247C005FEA6D /* LaunchScreen.storyboard */; };
 		0A42846C2022247C005FEA6D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A42846B2022247C005FEA6D /* main.m */; };
 		0A4683362022BC4800EC152A /* STMTestFramework.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 0A4683352022BC4800EC152A /* STMTestFramework.podspec */; };
+		0A4DAD6A202992F1008E7207 /* STMTestFramework-Universal.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 0A4DAD69202992F1008E7207 /* STMTestFramework-Universal.podspec */; };
 		AD48052462043E2E7F77E484 /* libPods-Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 025DC5A5BBF98A0255F68778 /* libPods-Example.a */; };
 /* End PBXBuildFile section */
 
@@ -30,6 +31,7 @@
 		0A42846A2022247C005FEA6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0A42846B2022247C005FEA6D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0A4683352022BC4800EC152A /* STMTestFramework.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = STMTestFramework.podspec; path = ../STMTestFramework.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		0A4DAD69202992F1008E7207 /* STMTestFramework-Universal.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "STMTestFramework-Universal.podspec"; path = "../STMTestFramework-Universal.podspec"; sourceTree = "<group>"; };
 		4BF95D2B7E6830C58A23669D /* Pods-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-Example/Pods-Example.release.xcconfig"; sourceTree = "<group>"; };
 		6A9C00064D8D34615C82A704 /* Pods-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Example/Pods-Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -49,6 +51,7 @@
 		0A4284502022247C005FEA6D = {
 			isa = PBXGroup;
 			children = (
+				0A4DAD69202992F1008E7207 /* STMTestFramework-Universal.podspec */,
 				0A4683352022BC4800EC152A /* STMTestFramework.podspec */,
 				0A42845B2022247C005FEA6D /* Example */,
 				0A42845A2022247C005FEA6D /* Products */,
@@ -159,6 +162,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A4DAD6A202992F1008E7207 /* STMTestFramework-Universal.podspec in Resources */,
 				0A4284692022247C005FEA6D /* LaunchScreen.storyboard in Resources */,
 				0A4284662022247C005FEA6D /* Assets.xcassets in Resources */,
 				0A4683362022BC4800EC152A /* STMTestFramework.podspec in Resources */,
