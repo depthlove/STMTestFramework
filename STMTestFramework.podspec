@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name = "STMTestFramework"
-s.version = "1.1.1"
+s.version = "1.1.2"
 s.summary = "It is a test framework."
 s.homepage = "https://github.com/depthlove/STMTestFramework"
 s.license = 'Apache License, Version 2.0'
