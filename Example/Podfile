@@ -3,5 +3,8 @@ inhibit_all_warnings!
 
 target 'Example' do
     pod "STMTestFramework", :path => "../"
-   pod 'Masonry', '1.1.0'
+#    pod "STMTestFramework", :podspec => '../STMTestFramework.podspec'
+#    pod "STMTestFramework", :podspec => '../STMTestFramework-Universal.podspec'
+
+    pod 'Masonry', '1.1.0'
 end
