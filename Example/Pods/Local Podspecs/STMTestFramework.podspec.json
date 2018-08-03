@@ -1,6 +1,6 @@
 {
   "name": "STMTestFramework",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "summary": "It is a test framework.",
   "homepage": "https://github.com/depthlove/STMTestFramework",
   "license": "Apache License, Version 2.0",
@@ -8,8 +8,8 @@
     "depthlove": "suntongmian@163.com"
   },
   "source": {
-    "git": "https://github.com/depthlove/STMTestFramework.git",
-    "tag": "v1.2.0"
+    "http": "http://sdk-release.qnsdk.com/STMTestFramework-v1.2.1.tar.gz",
+    "tag": "v1.2.1"
   },
   "platforms": {
     "ios": "8.0"
