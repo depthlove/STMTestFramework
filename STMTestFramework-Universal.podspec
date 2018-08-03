@@ -9,12 +9,12 @@
 Pod::Spec.new do |s|
 
 s.name             = "STMTestFramework"
-s.version          = "1.2.1"
+s.version          = "1.2.11"
 s.summary          = "It is a test framework."
 s.homepage         = "https://github.com/depthlove/STMTestFramework"
 s.license          = "Apache License 2.0"
 s.author           = { "depthlove" => "suntongmian@163.com" }
-s.source           = { :http => "http://sdk-release.qnsdk.com/STMTestFramework-v1.2.1.tar.gz" }
+s.source           = { :http => "http://sdk-release.qnsdk.com/STMTestFramework-v1.2.11.tar.gz" }
 
 s.platform     = :ios
 s.ios.deployment_target = '8.0'
