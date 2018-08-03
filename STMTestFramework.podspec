@@ -12,7 +12,7 @@ s.name             = "STMTestFramework"
 s.version          = "1.2.1"
 s.summary          = "It is a test framework."
 s.homepage         = "https://github.com/depthlove/STMTestFramework"
-s.license          = 'Apache License, Version 2.0'
+s.license          = "Apache License 2.0"
 s.author           = { "depthlove" => "suntongmian@163.com" }
 s.source           = { :http => "http://sdk-release.qnsdk.com/STMTestFramework-v1.2.1.tar.gz" }
 
