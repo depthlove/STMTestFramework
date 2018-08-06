@@ -19,6 +19,9 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
+    // version info
+    NSLog(@"version info: %@", [STMTestFrameworkClass versionInfo]);
+    
     STMTestFrameworkClass *stmTestFrameworkClass = [[STMTestFrameworkClass alloc] init];
     [stmTestFrameworkClass ouputFrameworkName];
 }

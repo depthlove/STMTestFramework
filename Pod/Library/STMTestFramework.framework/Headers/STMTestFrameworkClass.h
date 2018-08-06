@@ -7,9 +7,11 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
 @interface STMTestFrameworkClass : NSObject
 
++ (NSString *)versionInfo;
 - (instancetype)init;
 - (void)ouputFrameworkName;
 
